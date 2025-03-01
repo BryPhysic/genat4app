@@ -1,0 +1,3 @@
+/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles/mySimulation.dir
+/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles/edit_cache.dir
+/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles/rebuild_cache.dir
