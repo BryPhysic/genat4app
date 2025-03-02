@@ -1112,4 +1112,54 @@ CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o: \
   /usr/local/include/Geant4/G4Visible.hh \
   /usr/local/include/Geant4/G4Visible.icc \
   /usr/local/include/Geant4/G4Box.icc \
-  /usr/local/include/Geant4/G4SystemOfUnits.hh
+  /usr/local/include/Geant4/G4SystemOfUnits.hh \
+  /usr/local/include/Geant4/G4VSensitiveDetector.hh \
+  /usr/local/include/Geant4/G4CollectionNameVector.hh \
+  /usr/local/include/Geant4/G4HCofThisEvent.hh \
+  /usr/local/include/Geant4/G4Allocator.hh \
+  /usr/local/include/Geant4/G4AllocatorPool.hh \
+  /usr/local/include/Geant4/G4VHitsCollection.hh \
+  /usr/local/include/Geant4/G4Step.hh \
+  /usr/local/include/Geant4/G4StepPoint.hh \
+  /usr/local/include/Geant4/G4SteppingControl.hh \
+  /usr/local/include/Geant4/G4StepStatus.hh \
+  /usr/local/include/Geant4/G4TouchableHandle.hh \
+  /usr/local/include/Geant4/G4VTouchable.hh \
+  /usr/local/include/Geant4/G4TouchableHistory.hh \
+  /usr/local/include/Geant4/G4NavigationHistory.hh \
+  /usr/local/include/Geant4/G4AffineTransform.hh \
+  /usr/local/include/Geant4/G4AffineTransform.icc \
+  /usr/local/include/Geant4/G4NavigationLevel.hh \
+  /usr/local/include/Geant4/G4NavigationLevelRep.hh \
+  /usr/local/include/Geant4/G4NavigationLevelRep.icc \
+  /usr/local/include/Geant4/G4NavigationLevel.icc \
+  /usr/local/include/Geant4/G4NavigationHistoryPool.hh \
+  /usr/local/include/Geant4/G4NavigationHistory.icc \
+  /usr/local/include/Geant4/G4TouchableHistory.icc \
+  /usr/local/include/Geant4/G4ReferenceCountedHandle.hh \
+  /usr/local/include/Geant4/G4StepPoint.icc \
+  /usr/local/include/Geant4/G4TrackVector.hh \
+  /usr/local/include/Geant4/G4Step.icc \
+  /usr/local/include/Geant4/G4Track.hh \
+  /usr/local/include/Geant4/trkdefs.hh \
+  /usr/local/include/Geant4/G4DynamicParticle.hh \
+  /usr/local/include/Geant4/G4ElectronOccupancy.hh \
+  /usr/local/include/Geant4/pwdefs.hh \
+  /usr/local/include/Geant4/G4LorentzVector.hh \
+  /usr/local/include/Geant4/G4ParticleDefinition.hh \
+  /usr/local/include/Geant4/G4PDefManager.hh \
+  /usr/local/include/Geant4/G4ParticleDefinition.icc \
+  /usr/local/include/Geant4/G4ParticleMomentum.hh \
+  /usr/local/include/Geant4/G4DynamicParticle.icc \
+  /usr/local/include/Geant4/G4TrackStatus.hh \
+  /usr/local/include/Geant4/G4VUserTrackInformation.hh \
+  /usr/local/include/Geant4/G4PhysicsModelCatalog.hh \
+  /usr/local/include/Geant4/G4Track.icc \
+  /usr/local/include/Geant4/G4VHit.hh \
+  /usr/local/include/Geant4/G4VReadOutGeometry.hh \
+  /usr/local/include/Geant4/G4SensitiveVolumeList.hh \
+  /usr/local/include/Geant4/G4VSDFilter.hh \
+  /usr/local/include/Geant4/G4SDManager.hh \
+  /usr/local/include/Geant4/G4HCtable.hh \
+  /usr/local/include/Geant4/G4SDStructure.hh \
+  /Users/bryphy/Desktop/MyGeant4Project/MySensitiveDetector.hh

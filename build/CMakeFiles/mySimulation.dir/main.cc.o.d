@@ -1434,7 +1434,17 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /usr/local/include/Geant4/G4NistMaterialBuilder.hh \
   /usr/local/include/Geant4/G4Pow.hh /usr/local/include/Geant4/G4Exp.hh \
   /usr/local/include/Geant4/G4SystemOfUnits.hh \
+  /usr/local/include/Geant4/G4VSensitiveDetector.hh \
+  /usr/local/include/Geant4/G4CollectionNameVector.hh \
+  /usr/local/include/Geant4/G4VReadOutGeometry.hh \
+  /usr/local/include/Geant4/G4SensitiveVolumeList.hh \
+  /usr/local/include/Geant4/G4VSDFilter.hh \
+  /usr/local/include/Geant4/G4SDManager.hh \
+  /usr/local/include/Geant4/G4HCtable.hh \
+  /usr/local/include/Geant4/G4SDStructure.hh \
   /Users/bryphy/Desktop/MyGeant4Project/MyPrimaryGeneratorAction.hh \
   /usr/local/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /usr/local/include/Geant4/G4ParticleGun.hh \
-  /usr/local/include/Geant4/G4VPrimaryGenerator.hh
+  /usr/local/include/Geant4/G4VPrimaryGenerator.hh \
+  /Users/bryphy/Desktop/MyGeant4Project/RunAction.hh \
+  /usr/local/include/Geant4/G4UserRunAction.hh

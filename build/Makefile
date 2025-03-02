@@ -153,6 +153,30 @@ MyDetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.s
 .PHONY : MyDetectorConstruction.cc.s
 
+MySensitiveDetector.o: MySensitiveDetector.cc.o
+.PHONY : MySensitiveDetector.o
+
+# target to build an object file
+MySensitiveDetector.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o
+.PHONY : MySensitiveDetector.cc.o
+
+MySensitiveDetector.i: MySensitiveDetector.cc.i
+.PHONY : MySensitiveDetector.i
+
+# target to preprocess a source file
+MySensitiveDetector.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.i
+.PHONY : MySensitiveDetector.cc.i
+
+MySensitiveDetector.s: MySensitiveDetector.cc.s
+.PHONY : MySensitiveDetector.s
+
+# target to generate assembly for a file
+MySensitiveDetector.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.s
+.PHONY : MySensitiveDetector.cc.s
+
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... MyDetectorConstruction.o"
 	@echo "... MyDetectorConstruction.i"
 	@echo "... MyDetectorConstruction.s"
+	@echo "... MySensitiveDetector.o"
+	@echo "... MySensitiveDetector.i"
+	@echo "... MySensitiveDetector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

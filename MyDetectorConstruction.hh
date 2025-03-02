@@ -8,18 +8,23 @@
 #include "G4Box.hh"
 #include "G4Material.hh"
 #include "G4SystemOfUnits.hh"
+#include "G4VSensitiveDetector.hh"  
+#include "G4SDManager.hh"
 
 class MyDetectorConstruction : public G4VUserDetectorConstruction {
 public:
     MyDetectorConstruction();
     ~MyDetectorConstruction() override;
+    
 
     G4VPhysicalVolume* Construct() override;
+    void ConstructSDandField() override;
 
 private:
     void DefineMaterials();
     G4VPhysicalVolume* ConstructWorld();
     void ConstructTissueLayers(G4LogicalVolume* worldLog);
+  
 
     // **DECLARACIÓN DE VARIABLES GLOBALES DENTRO DE LA CLASE**
     G4Material* matWorld;

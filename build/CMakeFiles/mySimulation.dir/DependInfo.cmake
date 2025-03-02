@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/bryphy/Desktop/MyGeant4Project/MyDetectorConstruction.cc" "CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o" "gcc" "CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o.d"
+  "/Users/bryphy/Desktop/MyGeant4Project/MySensitiveDetector.cc" "CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o" "gcc" "CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o.d"
   "/Users/bryphy/Desktop/MyGeant4Project/main.cc" "CMakeFiles/mySimulation.dir/main.cc.o" "gcc" "CMakeFiles/mySimulation.dir/main.cc.o.d"
   )
 
