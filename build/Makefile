@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/bryphy/Desktop/MyGeant4Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bryphy/Desktop/MyGeant4Project/build
+CMAKE_BINARY_DIR = /Users/bryphy/Desktop/MyGeant4Project/Build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles /Users/bryphy/Desktop/MyGeant4Project/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryphy/Desktop/MyGeant4Project/Build/CMakeFiles /Users/bryphy/Desktop/MyGeant4Project/Build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryphy/Desktop/MyGeant4Project/Build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

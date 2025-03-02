@@ -1016,38 +1016,35 @@ CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o: \
   /usr/local/include/Geant4/geomdefs.hh \
   /usr/local/include/Geant4/G4RotationMatrix.hh \
   /usr/local/include/Geant4/G4ThreeVector.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/ThreeVector.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/defs.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/ThreeVector.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/Rotation.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationInterfaces.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/LorentzVector.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/LorentzVector.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/ZMxpv.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/AxisAngle.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/AxisAngle.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationInterfaces.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationX.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationX.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Units/PhysicalConstants.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Units/defs.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Units/SystemOfUnits.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationY.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationY.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationZ.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationZ.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/Rotation.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.h \
+  /usr/local/include/Geant4/CLHEP/Utility/defs.h \
+  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/Rotation.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.h \
+  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.h \
+  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationX.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /usr/local/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+  /usr/local/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationY.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationY.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/Rotation.icc \
   /usr/local/include/Geant4/G4VPhysicalVolume.icc \
   /usr/local/include/Geant4/G4LogicalVolume.icc \
   /usr/local/include/Geant4/G4PVPlacement.hh \
   /usr/local/include/Geant4/G4Transform3D.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Transform3D.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/defs.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Transform3D.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Point3D.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/BasicVector3D.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Vector3D.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Normal3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /usr/local/include/Geant4/G4NistManager.hh \
   /usr/local/include/Geant4/G4ICRU90StoppingData.hh \
   /usr/local/include/Geant4/G4Material.hh \
@@ -1105,8 +1102,8 @@ CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o: \
   /usr/local/include/Geant4/G4Polyhedron.hh \
   /usr/local/include/Geant4/HepPolyhedron.h \
   /usr/local/include/Geant4/G4TwoVector.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/TwoVector.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/TwoVector.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/TwoVector.h \
+  /usr/local/include/Geant4/CLHEP/Vector/TwoVector.icc \
   /usr/local/include/Geant4/G4Point3D.hh \
   /usr/local/include/Geant4/G4Normal3D.hh \
   /usr/local/include/Geant4/G4Visible.hh \
