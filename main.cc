@@ -2,9 +2,10 @@
 #include "G4UImanager.hh"
 #include "G4VisExecutive.hh"
 #include "G4UIExecutive.hh"
-#include "QGSP_BERT.hh"  // 🔹 Física recomendada
+#include "QGSP_BERT.hh"  
 #include "MyDetectorConstruction.hh"
 #include "MyPrimaryGeneratorAction.hh"
+#include "RunAction.hh"
 
 int main(int argc, char** argv) {
     // Inicializa la interfaz de usuario si es necesario
@@ -25,6 +26,9 @@ int main(int argc, char** argv) {
 
     // Configurar la generación de partículas
     runManager->SetUserAction(new MyPrimaryGeneratorAction());
+
+    // Configurar la acción de ejecución
+    runManager->SetUserAction(new RunAction());
     
     // Inicializar la visualización
     G4VisManager* visManager = new G4VisExecutive;
@@ -34,7 +38,7 @@ int main(int argc, char** argv) {
     G4UImanager* UImanager = G4UImanager::GetUIpointer();
     
 
-    
+
   
     
     // Ejecutar la interfaz de usuario si está habilitada

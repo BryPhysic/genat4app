@@ -85,12 +85,12 @@ clean: CMakeFiles/mySimulation.dir/clean
 CMakeFiles/mySimulation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles --progress-num=1,2,3 "Built target mySimulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target mySimulation"
 .PHONY : CMakeFiles/mySimulation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mySimulation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mySimulation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles 0
 .PHONY : CMakeFiles/mySimulation.dir/rule
@@ -102,7 +102,7 @@ mySimulation: CMakeFiles/mySimulation.dir/rule
 # codegen rule for target.
 CMakeFiles/mySimulation.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target mySimulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target mySimulation"
 .PHONY : CMakeFiles/mySimulation.dir/codegen
 
 # clean rule for target.

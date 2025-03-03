@@ -153,6 +153,54 @@ MyDetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.s
 .PHONY : MyDetectorConstruction.cc.s
 
+MySensitiveDetector.o: MySensitiveDetector.cc.o
+.PHONY : MySensitiveDetector.o
+
+# target to build an object file
+MySensitiveDetector.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o
+.PHONY : MySensitiveDetector.cc.o
+
+MySensitiveDetector.i: MySensitiveDetector.cc.i
+.PHONY : MySensitiveDetector.i
+
+# target to preprocess a source file
+MySensitiveDetector.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.i
+.PHONY : MySensitiveDetector.cc.i
+
+MySensitiveDetector.s: MySensitiveDetector.cc.s
+.PHONY : MySensitiveDetector.s
+
+# target to generate assembly for a file
+MySensitiveDetector.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.s
+.PHONY : MySensitiveDetector.cc.s
+
+RunAction.o: RunAction.cc.o
+.PHONY : RunAction.o
+
+# target to build an object file
+RunAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/RunAction.cc.o
+.PHONY : RunAction.cc.o
+
+RunAction.i: RunAction.cc.i
+.PHONY : RunAction.i
+
+# target to preprocess a source file
+RunAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/RunAction.cc.i
+.PHONY : RunAction.cc.i
+
+RunAction.s: RunAction.cc.s
+.PHONY : RunAction.s
+
+# target to generate assembly for a file
+RunAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mySimulation.dir/build.make CMakeFiles/mySimulation.dir/RunAction.cc.s
+.PHONY : RunAction.cc.s
+
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -189,6 +237,12 @@ help:
 	@echo "... MyDetectorConstruction.o"
 	@echo "... MyDetectorConstruction.i"
 	@echo "... MyDetectorConstruction.s"
+	@echo "... MySensitiveDetector.o"
+	@echo "... MySensitiveDetector.i"
+	@echo "... MySensitiveDetector.s"
+	@echo "... RunAction.o"
+	@echo "... RunAction.i"
+	@echo "... RunAction.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

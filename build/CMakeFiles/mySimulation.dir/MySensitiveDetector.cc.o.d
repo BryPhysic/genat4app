@@ -1,7 +1,8 @@
-CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o: \
-  /Users/bryphy/Desktop/MyGeant4Project/MyDetectorConstruction.cc \
-  /Users/bryphy/Desktop/MyGeant4Project/MyDetectorConstruction.hh \
-  /usr/local/include/Geant4/G4VUserDetectorConstruction.hh \
+CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o: \
+  /Users/bryphy/Desktop/MyGeant4Project/MySensitiveDetector.cc \
+  /Users/bryphy/Desktop/MyGeant4Project/MySensitiveDetector.hh \
+  /usr/local/include/Geant4/G4VSensitiveDetector.hh \
+  /usr/local/include/Geant4/G4CollectionNameVector.hh \
   /usr/local/include/Geant4/globals.hh \
   /usr/local/include/Geant4/G4ios.hh \
   /usr/local/include/Geant4/G4Types.hh \
@@ -974,8 +975,34 @@ CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
-  /usr/local/include/Geant4/G4LogicalVolume.hh \
-  /usr/local/include/Geant4/G4Region.hh \
+  /usr/local/include/Geant4/G4HCofThisEvent.hh \
+  /usr/local/include/Geant4/G4Allocator.hh \
+  /usr/local/include/Geant4/G4AllocatorPool.hh \
+  /usr/local/include/Geant4/G4VHitsCollection.hh \
+  /usr/local/include/Geant4/G4Step.hh \
+  /usr/local/include/Geant4/G4ThreeVector.hh \
+  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.h \
+  /usr/local/include/Geant4/CLHEP/Utility/defs.h \
+  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+  /usr/local/include/Geant4/G4VPhysicalVolume.hh \
+  /usr/local/include/Geant4/geomdefs.hh \
+  /usr/local/include/Geant4/G4RotationMatrix.hh \
+  /usr/local/include/Geant4/CLHEP/Vector/Rotation.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.h \
+  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.h \
+  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationX.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /usr/local/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+  /usr/local/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationY.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationY.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/Rotation.icc \
   /usr/local/include/Geant4/G4GeomSplitter.hh \
   /usr/local/include/Geant4/geomwdefs.hh \
   /usr/local/include/Geant4/G4AutoLock.hh \
@@ -1011,33 +1038,18 @@ CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/thread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /usr/local/include/Geant4/G4Region.icc \
-  /usr/local/include/Geant4/G4VPhysicalVolume.hh \
-  /usr/local/include/Geant4/geomdefs.hh \
-  /usr/local/include/Geant4/G4RotationMatrix.hh \
-  /usr/local/include/Geant4/G4ThreeVector.hh \
-  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.h \
-  /usr/local/include/Geant4/CLHEP/Utility/defs.h \
-  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/Rotation.h \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
-  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.h \
-  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.h \
-  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationX.h \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationX.icc \
-  /usr/local/include/Geant4/CLHEP/Units/PhysicalConstants.h \
-  /usr/local/include/Geant4/CLHEP/Units/SystemOfUnits.h \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationY.h \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationY.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.h \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/Rotation.icc \
   /usr/local/include/Geant4/G4VPhysicalVolume.icc \
-  /usr/local/include/Geant4/G4LogicalVolume.icc \
-  /usr/local/include/Geant4/G4PVPlacement.hh \
+  /usr/local/include/Geant4/G4StepPoint.hh \
+  /usr/local/include/Geant4/G4SteppingControl.hh \
+  /usr/local/include/Geant4/G4StepStatus.hh \
+  /usr/local/include/Geant4/G4TouchableHandle.hh \
+  /usr/local/include/Geant4/G4VTouchable.hh \
+  /usr/local/include/Geant4/G4TouchableHistory.hh \
+  /usr/local/include/Geant4/G4NavigationHistory.hh \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_assert.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_static_assert.h \
+  /usr/local/include/Geant4/G4AffineTransform.hh \
   /usr/local/include/Geant4/G4Transform3D.hh \
   /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.h \
   /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.icc \
@@ -1045,8 +1057,19 @@ CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o: \
   /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /usr/local/include/Geant4/CLHEP/Geometry/Vector3D.h \
   /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h \
-  /usr/local/include/Geant4/G4NistManager.hh \
-  /usr/local/include/Geant4/G4ICRU90StoppingData.hh \
+  /usr/local/include/Geant4/G4AffineTransform.icc \
+  /usr/local/include/Geant4/G4NavigationLevel.hh \
+  /usr/local/include/Geant4/G4NavigationLevelRep.hh \
+  /usr/local/include/Geant4/G4NavigationLevelRep.icc \
+  /usr/local/include/Geant4/G4NavigationLevel.icc \
+  /usr/local/include/Geant4/G4NavigationHistoryPool.hh \
+  /usr/local/include/Geant4/G4NavigationHistory.icc \
+  /usr/local/include/Geant4/G4LogicalVolume.hh \
+  /usr/local/include/Geant4/G4Region.hh \
+  /usr/local/include/Geant4/G4Region.icc \
+  /usr/local/include/Geant4/G4LogicalVolume.icc \
+  /usr/local/include/Geant4/G4TouchableHistory.icc \
+  /usr/local/include/Geant4/G4ReferenceCountedHandle.hh \
   /usr/local/include/Geant4/G4Material.hh \
   /usr/local/include/Geant4/G4Element.hh \
   /usr/local/include/Geant4/G4ElementTable.hh \
@@ -1087,53 +1110,6 @@ CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o: \
   /usr/local/include/Geant4/G4OrderedTable.hh \
   /usr/local/include/Geant4/G4DataVector.hh \
   /usr/local/include/Geant4/G4DataVector.icc \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_assert.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_static_assert.h \
-  /usr/local/include/Geant4/G4NistElementBuilder.hh \
-  /usr/local/include/Geant4/G4NistMaterialBuilder.hh \
-  /usr/local/include/Geant4/G4Pow.hh /usr/local/include/Geant4/G4Exp.hh \
-  /usr/local/include/Geant4/G4Box.hh \
-  /usr/local/include/Geant4/G4GeomTypes.hh \
-  /usr/local/include/Geant4/G4GeomConfig.hh \
-  /usr/local/include/Geant4/G4CSGSolid.hh \
-  /usr/local/include/Geant4/G4VSolid.hh \
-  /usr/local/include/Geant4/G4VSolid.icc \
-  /usr/local/include/Geant4/G4Polyhedron.hh \
-  /usr/local/include/Geant4/HepPolyhedron.h \
-  /usr/local/include/Geant4/G4TwoVector.hh \
-  /usr/local/include/Geant4/CLHEP/Vector/TwoVector.h \
-  /usr/local/include/Geant4/CLHEP/Vector/TwoVector.icc \
-  /usr/local/include/Geant4/G4Point3D.hh \
-  /usr/local/include/Geant4/G4Normal3D.hh \
-  /usr/local/include/Geant4/G4Visible.hh \
-  /usr/local/include/Geant4/G4Visible.icc \
-  /usr/local/include/Geant4/G4Box.icc \
-  /usr/local/include/Geant4/G4SystemOfUnits.hh \
-  /usr/local/include/Geant4/G4VSensitiveDetector.hh \
-  /usr/local/include/Geant4/G4CollectionNameVector.hh \
-  /usr/local/include/Geant4/G4HCofThisEvent.hh \
-  /usr/local/include/Geant4/G4Allocator.hh \
-  /usr/local/include/Geant4/G4AllocatorPool.hh \
-  /usr/local/include/Geant4/G4VHitsCollection.hh \
-  /usr/local/include/Geant4/G4Step.hh \
-  /usr/local/include/Geant4/G4StepPoint.hh \
-  /usr/local/include/Geant4/G4SteppingControl.hh \
-  /usr/local/include/Geant4/G4StepStatus.hh \
-  /usr/local/include/Geant4/G4TouchableHandle.hh \
-  /usr/local/include/Geant4/G4VTouchable.hh \
-  /usr/local/include/Geant4/G4TouchableHistory.hh \
-  /usr/local/include/Geant4/G4NavigationHistory.hh \
-  /usr/local/include/Geant4/G4AffineTransform.hh \
-  /usr/local/include/Geant4/G4AffineTransform.icc \
-  /usr/local/include/Geant4/G4NavigationLevel.hh \
-  /usr/local/include/Geant4/G4NavigationLevelRep.hh \
-  /usr/local/include/Geant4/G4NavigationLevelRep.icc \
-  /usr/local/include/Geant4/G4NavigationLevel.icc \
-  /usr/local/include/Geant4/G4NavigationHistoryPool.hh \
-  /usr/local/include/Geant4/G4NavigationHistory.icc \
-  /usr/local/include/Geant4/G4TouchableHistory.icc \
-  /usr/local/include/Geant4/G4ReferenceCountedHandle.hh \
   /usr/local/include/Geant4/G4StepPoint.icc \
   /usr/local/include/Geant4/G4TrackVector.hh \
   /usr/local/include/Geant4/G4Step.icc \
@@ -1156,7 +1132,132 @@ CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o: \
   /usr/local/include/Geant4/G4VReadOutGeometry.hh \
   /usr/local/include/Geant4/G4SensitiveVolumeList.hh \
   /usr/local/include/Geant4/G4VSDFilter.hh \
-  /usr/local/include/Geant4/G4SDManager.hh \
-  /usr/local/include/Geant4/G4HCtable.hh \
-  /usr/local/include/Geant4/G4SDStructure.hh \
-  /Users/bryphy/Desktop/MyGeant4Project/MySensitiveDetector.hh
+  /usr/local/include/Geant4/G4SystemOfUnits.hh \
+  /usr/local/include/Geant4/G4RootAnalysisManager.hh \
+  /usr/local/include/Geant4/G4ToolsAnalysisManager.hh \
+  /usr/local/include/Geant4/G4VAnalysisManager.hh \
+  /usr/local/include/Geant4/G4AnalysisManagerState.hh \
+  /usr/local/include/Geant4/G4AnalysisVerbose.hh \
+  /usr/local/include/Geant4/G4AnalysisUtilities.hh \
+  /usr/local/include/Geant4/G4VTBaseHnManager.hh \
+  /usr/local/include/Geant4/G4HnInformation.hh \
+  /usr/local/include/Geant4/G4BinScheme.hh \
+  /usr/local/include/Geant4/G4Fcn.hh \
+  /usr/local/include/Geant4/G4VAnalysisManager.icc \
+  /usr/local/include/Geant4/G4HnManager.hh \
+  /usr/local/include/Geant4/G4BaseAnalysisManager.hh \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/set \
+  /usr/local/include/Geant4/G4NtupleBookingManager.hh \
+  /usr/local/include/Geant4/tools/ntuple_booking \
+  /usr/local/include/Geant4/tools/cids \
+  /usr/local/include/Geant4/tools/cid \
+  /usr/local/include/Geant4/tools/typedefs \
+  /usr/local/include/Geant4/tools/forit \
+  /usr/local/include/Geant4/G4NtupleBookingManager.icc \
+  /usr/local/include/Geant4/G4VNtupleManager.hh \
+  /usr/local/include/Geant4/G4VFileManager.hh \
+  /usr/local/include/Geant4/G4BaseFileManager.hh \
+  /usr/local/include/Geant4/G4VTHnFileManager.hh \
+  /usr/local/include/Geant4/G4TH1ToolsManager.hh \
+  /usr/local/include/Geant4/G4THnToolsManager.hh \
+  /usr/local/include/Geant4/G4THnManager.hh \
+  /usr/local/include/Geant4/G4THnManager.icc \
+  /usr/local/include/Geant4/G4THnMessenger.hh \
+  /usr/local/include/Geant4/G4UImessenger.hh \
+  /usr/local/include/Geant4/G4UIdirectory.hh \
+  /usr/local/include/Geant4/G4UIcommand.hh \
+  /usr/local/include/Geant4/G4ApplicationState.hh \
+  /usr/local/include/Geant4/G4UIparameter.hh \
+  /usr/local/include/Geant4/G4THnToolsManager.icc \
+  /usr/local/include/Geant4/G4THnMessenger.icc \
+  /usr/local/include/Geant4/G4Tokenizer.hh \
+  /usr/local/include/Geant4/G4TH2ToolsManager.hh \
+  /usr/local/include/Geant4/G4TH3ToolsManager.hh \
+  /usr/local/include/Geant4/G4TP1ToolsManager.hh \
+  /usr/local/include/Geant4/G4TP2ToolsManager.hh \
+  /usr/local/include/Geant4/tools/histo/h1d \
+  /usr/local/include/Geant4/tools/histo/h1 \
+  /usr/local/include/Geant4/tools/histo/b1 \
+  /usr/local/include/Geant4/tools/histo/base_histo \
+  /usr/local/include/Geant4/tools/histo/histo_data \
+  /usr/local/include/Geant4/tools/histo/axes \
+  /usr/local/include/Geant4/tools/histo/axis \
+  /usr/local/include/Geant4/tools/histo/../eqT \
+  /usr/local/include/Geant4/tools/histo/h2d \
+  /usr/local/include/Geant4/tools/histo/h2 \
+  /usr/local/include/Geant4/tools/histo/b2 \
+  /usr/local/include/Geant4/tools/histo/h3d \
+  /usr/local/include/Geant4/tools/histo/h3 \
+  /usr/local/include/Geant4/tools/histo/b3 \
+  /usr/local/include/Geant4/tools/histo/p1d \
+  /usr/local/include/Geant4/tools/histo/p1 \
+  /usr/local/include/Geant4/tools/histo/profile_data \
+  /usr/local/include/Geant4/tools/histo/p2d \
+  /usr/local/include/Geant4/tools/histo/p2 \
+  /usr/local/include/Geant4/G4ToolsAnalysisManager.icc \
+  /usr/local/include/Geant4/tools/wroot/ntuple \
+  /usr/local/include/Geant4/tools/wroot/tree \
+  /usr/local/include/Geant4/tools/wroot/itree \
+  /usr/local/include/Geant4/tools/wroot/../typedefs \
+  /usr/local/include/Geant4/tools/wroot/iobject \
+  /usr/local/include/Geant4/tools/wroot/idir \
+  /usr/local/include/Geant4/tools/wroot/seek \
+  /usr/local/include/Geant4/tools/wroot/branch_element \
+  /usr/local/include/Geant4/tools/wroot/branch \
+  /usr/local/include/Geant4/tools/wroot/leaf \
+  /usr/local/include/Geant4/tools/wroot/base_leaf \
+  /usr/local/include/Geant4/tools/wroot/named \
+  /usr/local/include/Geant4/tools/wroot/buffer \
+  /usr/local/include/Geant4/tools/wroot/wbuf \
+  /usr/local/include/Geant4/tools/wroot/../long_out \
+  /usr/local/include/Geant4/tools/wroot/../snpf \
+  /usr/local/include/Geant4/tools/wroot/../charp_out \
+  /usr/local/include/Geant4/tools/wroot/../stype \
+  /usr/local/include/Geant4/tools/wroot/ibo \
+  /usr/local/include/Geant4/tools/wroot/../realloc \
+  /usr/local/include/Geant4/tools/wroot/../mnmx \
+  /usr/local/include/Geant4/tools/wroot/../forit \
+  /usr/local/include/Geant4/tools/wroot/../vmanip \
+  /usr/local/include/Geant4/tools/wroot/cids \
+  /usr/local/include/Geant4/tools/wroot/../cid \
+  /usr/local/include/Geant4/tools/wroot/../scast \
+  /usr/local/include/Geant4/tools/wroot/../safe_cast \
+  /usr/local/include/Geant4/tools/wroot/../rcmp \
+  /usr/local/include/Geant4/tools/wroot/../cids \
+  /usr/local/include/Geant4/tools/wroot/../vdata \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/TargetConditionals.h \
+  /usr/local/include/Geant4/tools/wroot/basket \
+  /usr/local/include/Geant4/tools/wroot/key \
+  /usr/local/include/Geant4/tools/wroot/date \
+  /usr/local/include/Geant4/tools/wroot/ifile \
+  /usr/local/include/Geant4/tools/wroot/../press_func \
+  /usr/local/include/Geant4/tools/wroot/../sout \
+  /usr/local/include/Geant4/tools/wroot/imutex \
+  /usr/local/include/Geant4/tools/wroot/branch_object \
+  /usr/local/include/Geant4/tools/wroot/icol \
+  /usr/local/include/Geant4/tools/wroot/../vfind \
+  /usr/local/include/Geant4/tools/wroot/../touplow \
+  /usr/local/include/Geant4/tools/wroot/../ntuple_booking \
+  /usr/local/include/Geant4/tools/wroot/mpi_create_basket \
+  /usr/local/include/Geant4/tools/wroot/../impi \
+  /usr/local/include/Geant4/tools/wroot/columns.icc \
+  /usr/local/include/Geant4/G4RootAnalysisManager.icc \
+  /usr/local/include/Geant4/G4RootNtupleManager.hh \
+  /usr/local/include/Geant4/G4TNtupleManager.hh \
+  /usr/local/include/Geant4/G4BaseNtupleManager.hh \
+  /usr/local/include/Geant4/G4TNtupleDescription.hh \
+  /usr/local/include/Geant4/G4TNtupleManager.icc \
+  /usr/local/include/Geant4/G4RootFileDef.hh \
+  /usr/local/include/Geant4/G4RootNtupleManager.icc \
+  /usr/local/include/Geant4/G4RootNtupleFileManager.hh \
+  /usr/local/include/Geant4/G4VNtupleFileManager.hh \
+  /usr/local/include/Geant4/G4RootFileManager.hh \
+  /usr/local/include/Geant4/G4VTFileManager.hh \
+  /usr/local/include/Geant4/G4TFileManager.hh \
+  /usr/local/include/Geant4/G4TFileInformation.hh \
+  /usr/local/include/Geant4/G4TFileManager.icc \
+  /usr/local/include/Geant4/tools/wcsv_ntuple \
+  /usr/local/include/Geant4/tools/vfind \
+  /usr/local/include/Geant4/tools/vmanip \
+  /usr/local/include/Geant4/tools/scast \
+  /usr/local/include/Geant4/tools/sout

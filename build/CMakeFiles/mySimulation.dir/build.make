@@ -100,16 +100,48 @@ CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryphy/Desktop/MyGeant4Project/MyDetectorConstruction.cc -o CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.s
 
+CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o: CMakeFiles/mySimulation.dir/flags.make
+CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o: /Users/bryphy/Desktop/MyGeant4Project/MySensitiveDetector.cc
+CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o: CMakeFiles/mySimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o -MF CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o.d -o CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o -c /Users/bryphy/Desktop/MyGeant4Project/MySensitiveDetector.cc
+
+CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryphy/Desktop/MyGeant4Project/MySensitiveDetector.cc > CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.i
+
+CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryphy/Desktop/MyGeant4Project/MySensitiveDetector.cc -o CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.s
+
+CMakeFiles/mySimulation.dir/RunAction.cc.o: CMakeFiles/mySimulation.dir/flags.make
+CMakeFiles/mySimulation.dir/RunAction.cc.o: /Users/bryphy/Desktop/MyGeant4Project/RunAction.cc
+CMakeFiles/mySimulation.dir/RunAction.cc.o: CMakeFiles/mySimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mySimulation.dir/RunAction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mySimulation.dir/RunAction.cc.o -MF CMakeFiles/mySimulation.dir/RunAction.cc.o.d -o CMakeFiles/mySimulation.dir/RunAction.cc.o -c /Users/bryphy/Desktop/MyGeant4Project/RunAction.cc
+
+CMakeFiles/mySimulation.dir/RunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mySimulation.dir/RunAction.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bryphy/Desktop/MyGeant4Project/RunAction.cc > CMakeFiles/mySimulation.dir/RunAction.cc.i
+
+CMakeFiles/mySimulation.dir/RunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mySimulation.dir/RunAction.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bryphy/Desktop/MyGeant4Project/RunAction.cc -o CMakeFiles/mySimulation.dir/RunAction.cc.s
+
 # Object files for target mySimulation
 mySimulation_OBJECTS = \
 "CMakeFiles/mySimulation.dir/main.cc.o" \
-"CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o"
+"CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o" \
+"CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o" \
+"CMakeFiles/mySimulation.dir/RunAction.cc.o"
 
 # External object files for target mySimulation
 mySimulation_EXTERNAL_OBJECTS =
 
 mySimulation: CMakeFiles/mySimulation.dir/main.cc.o
 mySimulation: CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o
+mySimulation: CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o
+mySimulation: CMakeFiles/mySimulation.dir/RunAction.cc.o
 mySimulation: CMakeFiles/mySimulation.dir/build.make
 mySimulation: /usr/local/lib/libG4Tree.dylib
 mySimulation: /usr/local/lib/libG4FR.dylib
@@ -123,7 +155,6 @@ mySimulation: /usr/local/lib/libG4modeling.dylib
 mySimulation: /usr/local/lib/libG4interfaces.dylib
 mySimulation: /usr/local/lib/libG4mctruth.dylib
 mySimulation: /usr/local/lib/libG4geomtext.dylib
-mySimulation: /usr/local/lib/libG4gdml.dylib
 mySimulation: /usr/local/lib/libG4error_propagation.dylib
 mySimulation: /usr/local/lib/libG4readout.dylib
 mySimulation: /usr/local/lib/libG4physicslists.dylib
@@ -141,16 +172,15 @@ mySimulation: /usr/local/lib/libG4graphics_reps.dylib
 mySimulation: /opt/homebrew/opt/qt@5/lib/QtWidgets.framework/QtWidgets
 mySimulation: /opt/homebrew/opt/qt@5/lib/QtGui.framework/QtGui
 mySimulation: /opt/homebrew/opt/qt@5/lib/QtCore.framework/QtCore
-mySimulation: /opt/homebrew/lib/libxerces-c.dylib
 mySimulation: /usr/local/lib/libG4analysis.dylib
-mySimulation: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libz.tbd
 mySimulation: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libexpat.tbd
+mySimulation: /usr/local/lib/libG4zlib.dylib
 mySimulation: /usr/local/lib/libG4intercoms.dylib
 mySimulation: /usr/local/lib/libG4global.dylib
+mySimulation: /usr/local/lib/libG4clhep.dylib
 mySimulation: /usr/local/lib/libG4ptl.3.0.0.dylib
-mySimulation: /opt/homebrew/opt/clhep/lib/libCLHEP-2.4.7.1.dylib
 mySimulation: CMakeFiles/mySimulation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mySimulation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/bryphy/Desktop/MyGeant4Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable mySimulation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mySimulation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

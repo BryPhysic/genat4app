@@ -981,9 +981,9 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /usr/local/include/Geant4/G4PrimaryVertex.hh \
   /usr/local/include/Geant4/G4PrimaryParticle.hh \
   /usr/local/include/Geant4/G4ThreeVector.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/ThreeVector.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/defs.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/ThreeVector.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.h \
+  /usr/local/include/Geant4/CLHEP/Utility/defs.h \
+  /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.icc \
   /usr/local/include/Geant4/pwdefs.hh \
   /usr/local/include/Geant4/G4HCofThisEvent.hh \
   /usr/local/include/Geant4/G4VHitsCollection.hh \
@@ -1002,9 +1002,8 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /usr/local/include/Geant4/G4SubEventTrackStack.hh \
   /usr/local/include/Geant4/G4SubEvent.hh \
   /usr/local/include/Geant4/G4Track.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Units/PhysicalConstants.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Units/defs.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Units/SystemOfUnits.h \
+  /usr/local/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+  /usr/local/include/Geant4/CLHEP/Units/SystemOfUnits.h \
   /usr/local/include/Geant4/trkdefs.hh \
   /usr/local/include/Geant4/G4LogicalVolume.hh \
   /usr/local/include/Geant4/G4Region.hh \
@@ -1047,21 +1046,20 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /usr/local/include/Geant4/G4VPhysicalVolume.hh \
   /usr/local/include/Geant4/geomdefs.hh \
   /usr/local/include/Geant4/G4RotationMatrix.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/Rotation.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationInterfaces.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/LorentzVector.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/LorentzVector.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/ZMxpv.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/AxisAngle.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/AxisAngle.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationInterfaces.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationX.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationX.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationY.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationY.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationZ.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/RotationZ.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/Rotation.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/Rotation.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.h \
+  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.h \
+  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationX.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationY.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationY.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/Rotation.icc \
   /usr/local/include/Geant4/G4VPhysicalVolume.icc \
   /usr/local/include/Geant4/G4LogicalVolume.icc \
   /usr/local/include/Geant4/G4DynamicParticle.hh \
@@ -1083,13 +1081,12 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_static_assert.h \
   /usr/local/include/Geant4/G4AffineTransform.hh \
   /usr/local/include/Geant4/G4Transform3D.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Transform3D.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/defs.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Transform3D.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Point3D.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/BasicVector3D.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Vector3D.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Normal3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /usr/local/include/Geant4/G4AffineTransform.icc \
   /usr/local/include/Geant4/G4NavigationLevel.hh \
   /usr/local/include/Geant4/G4NavigationLevelRep.hh \
@@ -1185,67 +1182,52 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /usr/local/include/Geant4/G4NoProcess.hh \
   /usr/local/include/Geant4/G4VProcess.hh \
   /usr/local/include/Geant4/Randomize.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/Randomize.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/defs.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/DRand48Engine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandomEngine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandomEngine.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Utility/noncopyable.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Utility/defs.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/DualRand.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/Hurd160Engine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/Hurd288Engine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/JamesRandom.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/MixMaxRng.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/MTwistEngine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandEngine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RanecuEngine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RanluxEngine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/Ranlux64Engine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RanluxppEngine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RanshiEngine.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/TripleRand.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandBinomial.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/Random.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/Random.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Utility/memory.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandBinomial.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandBreitWigner.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandFlat.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Utility/thread_local.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandFlat.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandBreitWigner.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandChiSquare.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandChiSquare.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandExponential.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandExponential.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandExpZiggurat.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandBit.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandBit.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGamma.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGamma.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGauss.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGauss.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGaussQ.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGaussQ.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGaussT.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/Stat.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGaussT.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGaussZiggurat.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGeneral.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandGeneral.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandLandau.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandLandau.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandPoissonQ.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandPoisson.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandPoisson.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandPoissonQ.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandPoissonT.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandPoissonT.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandSkewNormal.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandSkewNormal.icc \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandStudentT.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Random/RandStudentT.icc \
+  /usr/local/include/Geant4/CLHEP/Random/Randomize.h \
+  /usr/local/include/Geant4/CLHEP/Random/DualRand.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandomEngine.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandomEngine.icc \
+  /usr/local/include/Geant4/CLHEP/Random/JamesRandom.h \
+  /usr/local/include/Geant4/CLHEP/Random/MixMaxRng.h \
+  /usr/local/include/Geant4/CLHEP/Random/MTwistEngine.h \
+  /usr/local/include/Geant4/CLHEP/Random/RanecuEngine.h \
+  /usr/local/include/Geant4/CLHEP/Random/RanluxEngine.h \
+  /usr/local/include/Geant4/CLHEP/Random/Ranlux64Engine.h \
+  /usr/local/include/Geant4/CLHEP/Random/RanluxppEngine.h \
+  /usr/local/include/Geant4/CLHEP/Random/RanshiEngine.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandBinomial.h \
+  /usr/local/include/Geant4/CLHEP/Random/Random.h \
+  /usr/local/include/Geant4/CLHEP/Random/Random.icc \
+  /usr/local/include/Geant4/CLHEP/Utility/memory.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandBinomial.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandBreitWigner.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandFlat.h \
+  /usr/local/include/Geant4/CLHEP/Utility/thread_local.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandFlat.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandBreitWigner.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandChiSquare.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandChiSquare.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandExponential.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandExponential.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandExpZiggurat.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandBit.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandBit.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandGamma.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandGamma.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandGauss.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandGauss.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandGaussQ.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandGaussQ.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandGaussZiggurat.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandGeneral.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandGeneral.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandLandau.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandLandau.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandPoissonQ.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandPoisson.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandPoisson.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandPoissonQ.icc \
+  /usr/local/include/Geant4/CLHEP/Random/RandStudentT.h \
+  /usr/local/include/Geant4/CLHEP/Random/RandStudentT.icc \
   /usr/local/include/Geant4/G4PhysicsTable.hh \
   /usr/local/include/Geant4/G4PhysicsTable.icc \
   /usr/local/include/Geant4/G4VParticleChange.hh \
@@ -1305,7 +1287,7 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /usr/local/include/Geant4/G4ViewParameters.hh \
   /usr/local/include/Geant4/G4Vector3D.hh \
   /usr/local/include/Geant4/G4Plane3D.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Geometry/Plane3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Plane3D.h \
   /usr/local/include/Geant4/G4VMarker.hh \
   /usr/local/include/Geant4/G4Visible.hh \
   /usr/local/include/Geant4/G4Visible.icc \
@@ -1320,8 +1302,8 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /usr/local/include/Geant4/G4Polyhedron.hh \
   /usr/local/include/Geant4/HepPolyhedron.h \
   /usr/local/include/Geant4/G4TwoVector.hh \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/TwoVector.h \
-  /opt/homebrew/opt/clhep/include/CLHEP/Vector/TwoVector.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/TwoVector.h \
+  /usr/local/include/Geant4/CLHEP/Vector/TwoVector.icc \
   /usr/local/include/Geant4/G4Normal3D.hh \
   /usr/local/include/Geant4/G4Box.icc \
   /usr/local/include/Geant4/G4Cons.hh \
@@ -1384,7 +1366,6 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /usr/local/include/Geant4/G4VRML2File.hh \
   /usr/local/include/Geant4/G4GMocrenFile.hh \
   /usr/local/include/Geant4/G4ToolsSGOffscreen.hh \
-  /usr/local/include/Geant4/G4RayTracerX.hh \
   /usr/local/include/Geant4/G4ToolsSGQtGLES.hh \
   /usr/local/include/Geant4/G4ToolsSGQtZB.hh \
   /usr/local/include/Geant4/G4UIsession.hh \
@@ -1434,7 +1415,17 @@ CMakeFiles/mySimulation.dir/main.cc.o: \
   /usr/local/include/Geant4/G4NistMaterialBuilder.hh \
   /usr/local/include/Geant4/G4Pow.hh /usr/local/include/Geant4/G4Exp.hh \
   /usr/local/include/Geant4/G4SystemOfUnits.hh \
+  /usr/local/include/Geant4/G4VSensitiveDetector.hh \
+  /usr/local/include/Geant4/G4CollectionNameVector.hh \
+  /usr/local/include/Geant4/G4VReadOutGeometry.hh \
+  /usr/local/include/Geant4/G4SensitiveVolumeList.hh \
+  /usr/local/include/Geant4/G4VSDFilter.hh \
+  /usr/local/include/Geant4/G4SDManager.hh \
+  /usr/local/include/Geant4/G4HCtable.hh \
+  /usr/local/include/Geant4/G4SDStructure.hh \
   /Users/bryphy/Desktop/MyGeant4Project/MyPrimaryGeneratorAction.hh \
   /usr/local/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /usr/local/include/Geant4/G4ParticleGun.hh \
-  /usr/local/include/Geant4/G4VPrimaryGenerator.hh
+  /usr/local/include/Geant4/G4VPrimaryGenerator.hh \
+  /Users/bryphy/Desktop/MyGeant4Project/RunAction.hh \
+  /usr/local/include/Geant4/G4UserRunAction.hh

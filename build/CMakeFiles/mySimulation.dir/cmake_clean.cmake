@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o"
   "CMakeFiles/mySimulation.dir/MyDetectorConstruction.cc.o.d"
+  "CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o"
+  "CMakeFiles/mySimulation.dir/MySensitiveDetector.cc.o.d"
+  "CMakeFiles/mySimulation.dir/RunAction.cc.o"
+  "CMakeFiles/mySimulation.dir/RunAction.cc.o.d"
   "CMakeFiles/mySimulation.dir/main.cc.o"
   "CMakeFiles/mySimulation.dir/main.cc.o.d"
   "mySimulation"
