@@ -8,11 +8,13 @@ find_package(Geant4 REQUIRED)
 include(${Geant4_USE_FILE})
 
 # Agregar ejecutable
-add_executable(mySimulation main.cc MyDetectorConstruction.cc MySensitiveDetector.cc)
+add_executable(mySimulation main.cc MyDetectorConstruction.cc MySensitiveDetector.cc RunAction.cc)
 
 
 
 
 # Enlazar todas las bibliotecas necesarias
 #target_link_libraries(mySimulation ${Geant4_LIBRARIES})
-target_link_libraries(mySimulation ${Geant4_LIBRARIES} G4Tree)
+target_link_libraries(mySimulation ${Geant4_LIBRARIES} -L/usr/local/lib -lG4Tree -lG4Analysis)
+
+

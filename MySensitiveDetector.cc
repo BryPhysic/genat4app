@@ -1,11 +1,24 @@
+/* MySensitiveDetector.cc corregido */
+
 #include "MySensitiveDetector.hh"
 #include "G4Step.hh"
 #include "G4TouchableHistory.hh"
 #include "G4Track.hh"
 #include "G4SystemOfUnits.hh"
-#include "G4AnalysisManager.hh"
+#include "G4RootAnalysisManager.hh" // Nueva inclusión
 
-#include "g4root.hh"  // Agregar esta línea para usar el gestor de análisis
+// Constructor de MySensitiveDetector
+MySensitiveDetector::MySensitiveDetector(const G4String& name)
+    : G4VSensitiveDetector(name) {
+    auto analysisManager = G4RootAnalysisManager::Instance();
+    analysisManager->CreateNtuple("Hits", "Hit Data");
+    analysisManager->CreateNtupleSColumn("Volume");
+    analysisManager->CreateNtupleDColumn("Energy");
+    analysisManager->FinishNtuple();
+}
+
+// Destructor virtual necesario para evitar problemas de vtable
+MySensitiveDetector::~MySensitiveDetector() {}
 
 G4bool MySensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*) {
     // Obtener la energía depositada
@@ -19,10 +32,10 @@ G4bool MySensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*) {
     G4cout << "Energía depositada en " << volumeName << " = " << edep / keV << " keV" << G4endl;
 
     // Obtener el manejador de análisis correctamente
-    auto analysisManager = G4AnalysisManager::Instance();
+    auto analysisManager = G4RootAnalysisManager::Instance();
 
     if (!analysisManager) {
-        G4cerr << "ERROR: G4AnalysisManager no está inicializado correctamente." << G4endl;
+        G4cerr << "ERROR: G4RootAnalysisManager no está inicializado correctamente." << G4endl;
         return false;
     }
 
