@@ -39,6 +39,9 @@ G4bool MySensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*) {
         return false;
     }
 
+    // Depuración: verificar que los datos se registran
+    G4cout << "Registrando datos: " << volumeName << " | " << edep / keV << " keV" << G4endl;
+
     // Registrar los datos en la ntuple
     analysisManager->FillNtupleSColumn(0, volumeName);
     analysisManager->FillNtupleDColumn(1, edep / keV);
