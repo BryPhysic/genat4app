@@ -9,13 +9,7 @@
 
 // Constructor de MySensitiveDetector
 MySensitiveDetector::MySensitiveDetector(const G4String& name)
-    : G4VSensitiveDetector(name) {
-    auto analysisManager = G4RootAnalysisManager::Instance();
-    analysisManager->CreateNtuple("Hits", "Hit Data");
-    analysisManager->CreateNtupleSColumn("Volume");
-    analysisManager->CreateNtupleDColumn("Energy");
-    analysisManager->FinishNtuple();
-}
+    : G4VSensitiveDetector(name) {}
 
 // Destructor virtual necesario para evitar problemas de vtable
 MySensitiveDetector::~MySensitiveDetector() {}
@@ -34,8 +28,14 @@ G4bool MySensitiveDetector::ProcessHits(G4Step* step, G4TouchableHistory*) {
     // Obtener el manejador de análisis correctamente
     auto analysisManager = G4RootAnalysisManager::Instance();
 
-    if (!analysisManager) {
-        G4cerr << "ERROR: G4RootAnalysisManager no está inicializado correctamente." << G4endl;
+    if (!analysisManager || !analysisManager->IsOpenFile()) {
+        G4cerr << "ERROR: G4RootAnalysisManager no está inicializado o el archivo de salida no está abierto." << G4endl;
+        return false;
+    }
+
+    // Verificar que la ntuple existe antes de llenarla
+    if (analysisManager->GetNtuple() == nullptr) {
+        G4cerr << "ERROR: Ntuple no ha sido creada en RunAction." << G4endl;
         return false;
     }
 

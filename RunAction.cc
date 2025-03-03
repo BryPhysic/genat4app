@@ -4,16 +4,19 @@
 
 RunAction::RunAction() : G4UserRunAction() {
     auto analysisManager = G4RootAnalysisManager::Instance();
-    analysisManager->CreateNtuple("Run", "Run Data");
+    
+    analysisManager->SetVerboseLevel(1);  // Para depurar
+    analysisManager->CreateNtuple("Hits", "Hit Data");
+    analysisManager->CreateNtupleSColumn("Volume");  // Columna de strings
+    analysisManager->CreateNtupleDColumn("Energy");  // Columna de doubles
     analysisManager->FinishNtuple();
 }
 
-// Implementación del destructor virtual
 RunAction::~RunAction() {}
 
 void RunAction::BeginOfRunAction(const G4Run*) {
     auto analysisManager = G4RootAnalysisManager::Instance();
-    analysisManager->OpenFile("output.root");
+    analysisManager->OpenFile("output.root");  // Abrir el archivo antes de escribir
 }
 
 void RunAction::EndOfRunAction(const G4Run*) {
